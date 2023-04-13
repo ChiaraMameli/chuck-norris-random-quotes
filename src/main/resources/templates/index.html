@@ -2,9 +2,12 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <link th:href="@{style.css}" rel="stylesheet">
     <title>Chuck Norris Quote</title>
 </head>
 <body>
-    <h1>[[${joke}]]</h1>
+    <div class="container">
+        <h1>[[${joke}]]</h1>
+    </div>
 </body>
 </html>
